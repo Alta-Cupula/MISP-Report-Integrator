@@ -1,0 +1,5 @@
+# Using YAML allows the user to change config without wasting time looking at the code
+keys:
+    misp_url: 'http://127.0.0.1/'
+    misp_key: 'u7PoJuTNNcwLUzY6nn3Lqn6cXb3GnRVKNr0bZMXc'
+    misp_verifycert: False
