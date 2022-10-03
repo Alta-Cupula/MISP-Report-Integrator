@@ -1,3 +1,4 @@
+from .docx import DOCXReader
 from .extractor import IOCExtractor
-from .reader import PDFReader
+from .pdf import PDFReader
 from .report import ReportGenerator
