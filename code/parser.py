@@ -1,7 +1,7 @@
 from pymisp import MISPAttribute, MISPEvent, PyMISP
 
 MISP_URL = 'http://127.0.0.1/'
-MISP_KEY = 'u7PoJuTNNcwLUzY6nn3Lqn6cXb3GnRVKNr0bZMXc'
+MISP_KEY = ''
 
 def create_attribute(attr_type: str = None, value: str = None) -> MISPAttribute:
     """Returns a MISPAttribute object."""
