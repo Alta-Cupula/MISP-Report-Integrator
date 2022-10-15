@@ -5,7 +5,7 @@
 
 # MISP
 
---Ler arquivos PDF/WORD e passar os IOCs para o MISP e EDR do CrowdStrike através de APIs
+--Ler arquivos PDF/WORD e passar os IOCs para o MISP
 
 - Linguagem: Python
 - Instalar em Dockers
@@ -21,10 +21,8 @@
 - https://www.misp-project.org/openapi/ (API do MISP)
 - https://www.anomali.com/pt/resources/what-are-stix-taxii (Recursos de compartilhamento)
 
-- Github para compartilhar o código
+## Recursos
 
-## Mais pra Frente
-
-- Especificar o provável grupo
+- Busca de IOCs usando URLs
 - Virus Total API
-- IA
+- ID de hashes dos malwares
