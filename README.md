@@ -1,26 +1,20 @@
-# PROJETO CHALLENGE 2022 - Desafio I
+# MISP Report Integrator
 
+During my Bachelor's degree course I was able to compete in a challenge with my colleagues for a money prize of R$5000,00. The main objective was to developed a solution to a given problem while showing our skills. Together with my team I was able to win this prize and this is the final code.  
 
-# MISP
+As proposed by the FIAP's Cybersecurity Challenge, the tool aims to perform the collection of Indicators of Compromise (IOCs) and generate a report that will later be added to the MISP platform, thus requiring the MISP API integration. For easy understanding and development of the code, the choosen programming language was Python. 
 
---Ler arquivos PDF/WORD e passar os IOCs para o MISP
+## Features
 
-- Linguagem: Python
-- Instalar em Dockers
-	- https://github.com/misp/misp-docker
-- IOCs = HASH, IPs, Nome de Domínio, URLs
-	- HASH => Especificar o Algoritmo
-	- IPs => Especificar as ASN
-	- DNS => Especificar o mantenedor
-- PDFs e Arquivos DOC vão ser entregues ou precisamos buscá-los?
-- https://www.crowdstrike.com/blog/observations-from-the-stellarparticle-campaign/
-- https://attack.mitre.org (MITRE)
-- https://pypi.org/project/pymisp/ (Python de API no MISP
-- https://www.misp-project.org/openapi/ (API do MISP)
-- https://www.anomali.com/pt/resources/what-are-stix-taxii (Recursos de compartilhamento)
+- Supports DOCX, PDF and URLs
+- VirusTotal API integration for IOCs validation
+- MalwareBazaar API integration for IOCs validation
+- MISP API integration
+- Multiple file extension outputs
 
-## Recursos
-
-- Busca de IOCs usando URLs
-- Virus Total API
-- ID de hashes dos malwares
+## Resources Used
+- Docker MISP Installation: [Github](https://github.com/misp/misp-docker)
+- Crowdstrike IOC Samples: [Crowdstrike](https://www.crowdstrike.com/blog/observations-from-the-stellarparticle-campaign/)
+- Python PyMISP API: [PyPi](https://pypi.org/project/pymisp/)
+- MISP Official API: [Misp Project](https://www.misp-project.org/openapi/)
+- STIX/TAXII Guide on Internal Resource Sharing: [Anomali](https://www.anomali.com/pt/resources/what-are-stix-taxii)
