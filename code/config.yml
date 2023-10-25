@@ -1,5 +1,5 @@
 # Using YAML allows the user to change config without wasting time looking at the code
 keys:
-    misp_url: 'https://96.126.107.93/'
-    misp_key: 'FzZF4jke5U9uB5LsZiI1VQLUNlp9Sr2ezufEcevS'
+    misp_url: 'MISP_URL'
+    misp_key: 'YOUR_MISP_API_KEY'
     misp_verifycert: False
